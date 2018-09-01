@@ -1,7 +1,6 @@
-
-Dijkstra = function () {
+Dijkstra = function() {
     var graph = {};
-    
+
     function addEdge(source, target, weight) {
         if (!(source in graph)) graph[source] = {};
         if (!(target in graph)) graph[target] = {};
@@ -30,18 +29,20 @@ Dijkstra = function () {
         for (var i = 0; i < numVertex; ++i) {
             var minDist = 1 / 0,
                 minV = void 0;
-            for (var v in dist) if (!(v in visited)) {
-                if (minDist > dist[v]) minDist = dist[v],
-                    minV = v
-            } else;
+            for (var v in dist)
+                if (!(v in visited)) {
+                    if (minDist > dist[v]) minDist = dist[v],
+                        minV = v
+                } else;
             if (void 0 === minV) break;
             if (minV === target) return minDist;
             visited[minV] = true;
             var edges = graph[minV];
-            for (var v in edges) if (!(v in visited)) {
-                var newDist = minDist + edges[v];
-                if (dist[v] > newDist) dist[v] = newDist
-            } else;
+            for (var v in edges)
+                if (!(v in visited)) {
+                    var newDist = minDist + edges[v];
+                    if (dist[v] > newDist) dist[v] = newDist
+                } else;
         }
         return 1 / 0
     }

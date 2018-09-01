@@ -2,8 +2,13 @@
     margin: 30px auto;
     text-align: center
 }
+
+
 /*初始化所有格式*/
-.op-subway-bord ul, li, p {
+
+.op-subway-bord ul,
+li,
+p {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -33,7 +38,9 @@
     width: 280px;
 }
 
+
 /*线路样式*/
+
 .op-subway-line {
     cursor: pointer;
     list-style: none;
@@ -53,7 +60,9 @@
     padding-left: 10px;
 }
 
+
 /*方块中的颜色*/
+
 .op-subway-line em span {
     display: block;
     position: absolute;
@@ -89,7 +98,9 @@
     font-size: 13px;
 }
 
+
 /*下拉小方块*/
+
 .op-subway-ul li span {
     display: block;
     position: absolute;
@@ -99,7 +110,9 @@
     top: 11px;
 }
 
+
 /*横杆样式*/
+
 .op-subway-jg {
     width: 25px;
     float: left;
@@ -140,7 +153,9 @@
     padding: 0 10px;
 }
 
+
 /*选择车站下拉*/
+
 .op-subway-ulk {
     z-index: 999;
     display: none;
@@ -170,7 +185,9 @@
     clear: both;
 }
 
+
 /*按钮*/
+
 .op-subway-calc-false {
     position: absolute;
     left: 0;
@@ -188,7 +205,9 @@
     font-size: 13px;
 }
 
+
 /*改变之后的按钮*/
+
 .op-subway-calc-fare {
     border: 0;
     position: absolute;
@@ -224,7 +243,9 @@
     width: 242px;
 }
 
+
 /*涨价后上面*/
+
 .op-subway-on {
     list-style: none;
     border-right: 1px solid #dedede;
@@ -248,7 +269,9 @@
     background: #fafafa;
 }
 
+
 /*详情*/
+
 .op-subway-footer {
     display: none;
     overflow: hidden;
@@ -275,47 +298,62 @@
     padding: 10px 0;
 }
 
+
 /*票价字体颜色*/
+
 .op-subway-increase {
     color: #f50;
     font: inherit;
     font-weight: 700;
 }
 
+
 /*各条地铁颜色*/
-.op-subway-one{
+
+.op-subway-one {
     background: #e1d01e;
 }
-.op-subway-two{
+
+.op-subway-two {
     background: #076acf;
 }
-.op-subway-three{
+
+.op-subway-three {
     background: #f18432;
 }
-.op-subway-four{
+
+.op-subway-four {
     background: #17a407;
 }
-.op-subway-five{
+
+.op-subway-five {
     background: #cd0045;
 }
-.op-subway-six{
+
+.op-subway-six {
     background: #550071;
 }
-.op-subway-seven{
+
+.op-subway-seven {
     background: #80ff00;
 }
-.op-subway-eight{
+
+.op-subway-eight {
     background: #19ab84;
 }
-.op-subway-nine{
+
+.op-subway-nine {
     background: #62ff73;
 }
-.op-subway-fourteen{
+
+.op-subway-fourteen {
     background: #520000;
 }
-.op-subway-apm{
+
+.op-subway-apm {
     background: #44ffe4;
 }
-.op-subway-gfx{
+
+.op-subway-gfx {
     background: #aecb33;
 }

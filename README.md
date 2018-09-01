@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# GZSubway
 
-You can use the [editor on GitHub](https://github.com/AlexHyman/GZSubway/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### 说明：
+广州地铁计价器 （目前尚未完成所有线路，持续更新！！！）
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### 实现功能：
+选择初始站与终点站，计算最短距离与所需费用
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AlexHyman/GZSubway/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 使用技术：
+HTML + CSS + JavaScript + jQuery + Dijkstra
