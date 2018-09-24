@@ -1,76 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="zh-cn">
     <meta charset="UTF-8">
     <title>广州地铁计价器</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+
 <body>
-<div class="op-subway-header">
-    <h2>广州地铁计价器</h2>
-</div>
-<div class="op-subway-bord">
-    <div class="op-subway-main">
-        <!--起始站-->
-        <div class="op-subway-box op-subway-box-start">
-            <div class="op-subway-line op-subway-hierarchy">
-                <em>起始站</em>
-                <span class="op-subway-k"></span>
-                <ul class="op-subway-ul"></ul>
-            </div>
-            <p class="op-subway-jg">-</p>
-            <div class="op-subway-station op-subway-hierarchy ">
-                <em class="op-subway-hierarchy-start">选择车站</em>
-                <span class="op-subway-k"></span>
-                <ul class="op-subway-ulk"></ul>
-            </div>
-        </div>
-        <!--终点站-->
-        <div class="op-subway-box op-subway-box-end">
-            <div class="op-subway-line">
-                <em>终点站</em>
-                <span class="op-subway-k"></span>
-                <ul class="op-subway-ul"></ul>
-            </div>
-            <p class="op-subway-jg">-</p>
-            <div class="op-subway-station op-subway-station-end">
-                <em>选择车站</em>
-                <span class="op-subway-k"></span>
-                <ul class="op-subway-ulk"></ul>
-            </div>
-        </div>
-        <!--按钮-->
-        <div class="op-subway-clearfix"><span class="op-subway-calc-false">开始查询</span>
-            <!--详情边框-->
-            <span class="op-subway-ts"></span>
-        </div>
-        <!--票价显示-->
-        <div class="op-subway-tab">
-            <ul>
-                <li class="op-subway-li op-subway-on">票价</li>
-            </ul>
-        </div>
+    <div class="op-subway-header">
+        <h2>广州地铁计价器</h2>
     </div>
-    <div class="op-subway-footer">
-        <div class="op-subway-content op-subway-content2">
-            <div class="op-subway-text">
-                <p class="op-subway-title">
-                    广州地铁线网票价按里程分段计价 ：<br>
-                    起步4公里以内2元 ; <br>
-                    4至12公里范围内每递增4公里加1元 ; <br>
-                    12至24公里范围内每递增6公里加1元 ; <br>
-                    24公里以后，每递增8公里加1元 。</p>
-                <div class="op-subway-fareinfo">
-                    <p class="op-subway-p op-subway-spacing">
-                    </p>
+    <div class="op-subway-bord">
+        <div class="op-subway-main">
+            <!--起始站-->
+            <div class="op-subway-box op-subway-box-start">
+                <div class="op-subway-line op-subway-hierarchy">
+                    <em>起始站</em>
+                    <span class="op-subway-k"></span>
+                    <ul class="op-subway-ul"></ul>
+                </div>
+                <p class="op-subway-jg">-</p>
+                <div class="op-subway-station op-subway-hierarchy ">
+                    <em class="op-subway-hierarchy-start">选择车站</em>
+                    <span class="op-subway-k"></span>
+                    <ul class="op-subway-ulk"></ul>
+                </div>
+            </div>
+            <!--终点站-->
+            <div class="op-subway-box op-subway-box-end">
+                <div class="op-subway-line">
+                    <em>终点站</em>
+                    <span class="op-subway-k"></span>
+                    <ul class="op-subway-ul"></ul>
+                </div>
+                <p class="op-subway-jg">-</p>
+                <div class="op-subway-station op-subway-station-end">
+                    <em>选择车站</em>
+                    <span class="op-subway-k"></span>
+                    <ul class="op-subway-ulk"></ul>
+                </div>
+            </div>
+            <!--按钮-->
+            <div class="op-subway-clearfix"><span class="op-subway-calc-false">开始查询</span>
+                <!--详情边框-->
+                <span class="op-subway-ts"></span>
+            </div>
+            <!--票价显示-->
+            <div class="op-subway-tab">
+                <ul>
+                    <li class="op-subway-li op-subway-on">票价</li>
+                </ul>
+            </div>
+        </div>
+        <div class="op-subway-footer">
+            <div class="op-subway-content op-subway-content2">
+                <div class="op-subway-text">
+                    <p class="op-subway-title">
+                        广州地铁线网票价按里程分段计价 ：<br>
+                        起步4公里以内2元 ; <br>
+                        4至12公里范围内每递增4公里加1元 ; <br>
+                        12至24公里范围内每递增6公里加1元 ; <br>
+                        24公里以后，每递增8公里加1元 。</p>
+                    <div class="op-subway-fareinfo">
+                        <p class="op-subway-p op-subway-spacing">
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/Dijkstra.js"></script>
-<script src="js/GZSubway.js"></script>
-</div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/Dijkstra.js"></script>
+    <script src="js/GZSubway.js"></script>
+    </div>
 </body>
+
 </html>

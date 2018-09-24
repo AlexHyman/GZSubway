@@ -170,7 +170,7 @@ var edgesData = [
     ["礌岗", "千灯湖", 1.34],
     ["千灯湖", "金融高新区", 1.37],
     ["金融高新区", "龙溪", 3.72],
-    ["龙溪", "菊树", 2.07 ],
+    ["龙溪", "菊树", 2.07],
     ["菊树", "西朗", 1.98]
 ]
 
@@ -213,7 +213,7 @@ function initSubwayBox() {
     var lineHtml = genSubwayLineHtml();
     $j(".op-subway-line .op-subway-ul").html(lineHtml),
         $j(".op-subway-line .op-subway-ul").on("click", "li",
-            function() {
+            function () {
                 // 更改文本内容
                 var lineName = $j(this).text();
                 $j(this).parent().parent().parent().find(".op-subway-line em").css({
@@ -237,17 +237,17 @@ function initSubwayBox() {
 // 点击处理
 function initSubwayClick() {
     $j(".op-subway-line,.op-subway-station").on("click",
-        function(event) {
+        function (event) {
             // 阻止冒泡
             if (event.stopPropagation(), $j(".op-subway-ts").hide, $j(".op-subway-box ul").hide(), $j(this).find("ul").children().length) $j(this).find("ul").show();
             // 点击空白处，自动隐藏
             $j(document).on("click",
-                function() {
+                function () {
                     $j(".op-subway-box ul").hide()
                 })
         })
     $j(".op-subway-ul, .op-subway-ulk").on("click", "li",
-        function(event) {
+        function (event) {
             event.stopPropagation(),
                 $j(this).parent().parent().find("em").html($j(this).html()),
                 // 隐藏下拉框
@@ -258,7 +258,7 @@ function initSubwayClick() {
 
 function initCalcFare() {
     $j(".op-subway-main").on("click", ".op-subway-calc-fare",
-        function() {
+        function () {
             var start = $j(".op-subway-box-start .op-subway-station em").html();
             end = $j(".op-subway-box-end .op-subway-station em").html();
             if (start == end)

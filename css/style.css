@@ -144,7 +144,7 @@ p {
     position: absolute;
     right: 0;
     border-left: 1px solid #d9d9d9;
-    background: url(http://imgbdb2.bendibao.com/images/icons.jpg) no-repeat center center;
+    background: url(http: //imgbdb2.bendibao.com/images/icons.jpg) no-repeat center center;
 }
 
 .op-subway-station em {

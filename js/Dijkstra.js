@@ -1,4 +1,4 @@
-Dijkstra = function() {
+Dijkstra = function () {
     var graph = {};
 
     function addEdge(source, target, weight) {
